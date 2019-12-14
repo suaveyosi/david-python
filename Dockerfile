@@ -1,4 +1,4 @@
-FROM python:2.8
+FROM python:2.7
 LABEL maintainer="suaveyosi"
 RUN  mkdir /app
 COPY src/ /app
